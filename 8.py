@@ -18,6 +18,6 @@ triple = number * 3
 square_root = math.sqrt(number)
 
 
-print("O dobro de {} é {}".format(number, double))
-print("O triplo de {} é {}".format(number, triple))
-print("A raíz quadrada de {} é {}".format(number, square_root))
+print(f"O dobro de {number} é {double}")
+print(f"O triplo de {number} é {triple}")
+print(f"A raíz quadrada de {number} é {square_root}")
